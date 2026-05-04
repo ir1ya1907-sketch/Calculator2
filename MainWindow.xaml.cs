@@ -35,7 +35,7 @@ namespace CalculatorApp
                         res = a / b; break;
                 }
 
-                ResultLabel.Text = $"Результат: {res}";
+                ResultLabel.Content = $"Результат: {res}";
             }
             else
             {
